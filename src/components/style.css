@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+.page-container {
+    background-color: black;
+}
+
+.pokeball-image {
+    height: 100px;
+    width: 100px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    padding: 15px;
+    border: 3px solid blue;
+    background-color: rgb(242, 53, 53);
+}
+.filters-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+label {
+    color: burlywood;
+}
+
+select {
+    margin-left: 5px;
+}
+
+/* Card styling */
+.pokemon-tile-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    padding: 1rem;
+}
+
+.pokemon-tile {
+    background-color: rgb(105, 240, 75);
+    border-radius: 1rem;
+    border: 5px solid rgb(234, 225, 62);
+    text-align: center;
+    width: 25%;
+}
+
+.pokemon-img {
+    border: 1px solid black;
+    border-radius: 5rem;
+    background-color: rgb(234, 225, 62);
+    filter: contrast(75%) ;
+    filter: drop-shadow(0 0 .25rem black);
+    animation: wiggle 3s linear infinite; 
+}
+/*KeyFrames*/
+@keyframes wiggle {
+    0%, 7% {
+        transform: rotateZ(0);
+    }
+    15% {
+        transform: rotateZ(-5deg);
+    }
+    20% {
+        transform: rotateZ(3deg);
+    }
+    25% {
+        transform: rotateZ(-3deg);
+    }
+    30% {
+        transform: rotateZ(2deg);
+    }
+    35% {
+        transform: rotateZ(-1deg);
+    }
+    40%, 100% {
+        transform: rotateZ(0);
+    }
+}
+
+.poke-name {
+    background-color: rgb(234,225,62);
+}
+
+
+ol {
+    list-style: none;
+}
+
+.p-span-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+span{
+    border: 1px solid black;
+    width: 25%;
+    border-radius: 1rem;
+    filter: contrast(75%) ;
+    filter: drop-shadow(0 0 .25rem black)
+}
+
+/*End Card Styling*/
+
+
+
+h1{
+    color: burlywood;
+}
+
+
+
+/* Color options for  types */
+.Grass, .Poison, .Bug {
+    background-color: rgb(105, 240, 75);
+}
+
+.Fire {
+    background-color: coral;
+}
+
+ .Fighting {
+    background-color: burlywood;
+}
+
+.Electric {
+    background-color: yellow;
+}
+
+.Ground {
+    background-color: rgb(154, 82, 19);
+} 
+
+.Water {
+    background-color: dodgerblue;
+}
+
+.Rock {
+    background-color: lightslategray;
+}
+
+.Flying, .Normal {
+    background-color: lightskyblue;
+}
+
+.Ice {
+    background-color: aqua;
+}
+
+.Ghost, .Psychic {
+    background-color: mediumpurple;
+}
+
+.Dragon {
+    background-color: darkgoldenrod;
+}
