@@ -1,7 +1,7 @@
 {
   "name": "pokedex",
   "version": "0.1.0",
-  "homepage": "http://sauterdev.github.io/pokedex",
+  "homepage": "http://sauterdev.github.io/pokedex-deploy",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
