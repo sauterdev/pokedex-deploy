@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import pokeImage from "../components/images/pokeball.png";
 
 

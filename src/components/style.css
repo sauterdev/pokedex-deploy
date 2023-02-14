@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 
+
 .page-container {
+    height: 100%;
     background-color: black;
 }
 
@@ -16,7 +18,7 @@
     justify-content: space-around;
     margin: 30px auto;
     padding: 15px;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     background-color: rgb(242, 53, 53);
 }
 .filters-container {
@@ -161,4 +163,22 @@ h1{
 
 .Dragon {
     background-color: darkgoldenrod;
+}
+
+
+@media screen and (max-width: 900px) {
+    .pokeball-image {
+        height: 50px;
+        width: 50px;
+    }
+
+    .pokemon-tile {
+        width: 75%;
+    }
+
+    .filters-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px
+    }
 }

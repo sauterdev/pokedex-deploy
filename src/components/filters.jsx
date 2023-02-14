@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+
 
 export function Filters({ pokeArr, filterName, filterType, filterWeak, setFilterName, setFilterType, setFilterWeak }) {
   
@@ -28,9 +28,6 @@ export function Filters({ pokeArr, filterName, filterType, filterWeak, setFilter
     setFilterWeak(() => {
        return document.getElementById("weaknessSelect").value;
     })
-    console.log(filterName);
-    console.log(filterType);
-    console.log(filterWeak);
   }
 
   return (
