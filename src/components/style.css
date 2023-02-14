@@ -178,7 +178,7 @@ h1{
 
     .filters-container {
         flex-direction: column;
-        justify-content: center;
-        gap: 10px
+        align-items: center;
+        gap: 10px;
     }
 }
